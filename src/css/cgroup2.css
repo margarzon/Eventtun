@@ -1,0 +1,132 @@
+
+.card-body1{
+    background: linear-gradient(70deg, grey 50%, black 50%); 
+    text-align: center;
+    height: 15pc;
+
+}
+
+.card-title3{
+    margin-top: 10px;
+    margin-left: 260px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.card-text{
+    margin-left: 260px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.card-title4{
+    margin-top: 10px;
+    margin-left: 260px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.btn-mi{
+    --bs-btn-padding-x: 3rem;
+    --bs-btn-padding-y: 0.6rem;
+    border-radius: 15px;
+    margin-left: 260px;
+
+
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: calc(50% - 0.5rem); /* Ajusta el espacio entre las cards */
+    position: relative;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px; /* Grosor de la línea */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.125); /* Color de la línea */
+}
+
+.card-body4 {
+    padding: 0%;
+    color: var(--bs-card-color);
+    text-align: center;
+    height: 25pc;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-2,
+.img-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-1 {
+    left: 15px; /* Ajusta el desplazamiento hacia la derecha */
+    filter: blur(8px); /* Aplicar el efecto de borrosidad */
+    opacity: 0.8; /* Ajustar la opacidad */
+    top: 12px;
+}
+
+.card-body5 {
+    padding: 0.4rem;
+    color: var(--bs-card-color);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 25pc;
+    margin-top: 20px;
+}
+
+.card-text-a {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-3 {
+    margin-top: 20px;
+}
+
+.container {
+    display: inline-block;
+    width: 300px; /* Ajusta este ancho según tus necesidades */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-right: 150px; /* Agrega margen derecho para separar los contenedores */
+    margin-left: 220px;
+  }
+
+  .inner-container {
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 68px;
+    position: relative;
+    width: 350px;
+  }
+
+  label {
+    position: absolute;
+    left: 118px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    pointer-events: none;
+    font-weight: bold;
+    margin-top: -40px;  }
+

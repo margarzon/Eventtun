@@ -1,0 +1,64 @@
+.card-img, .card-img-bottom, .card-img-top {
+    width: 60%;
+    height: auto;
+}
+
+
+.card-body {
+    padding: 0%;
+    color: var(--bs-card-color);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 15pc
+   ;
+}
+.card-body2 {
+    padding: 0.4rem;
+    color: var(--bs-card-color);
+    background-color: rgb(151, 148, 148);
+    text-align: center;
+    height: 15pc
+}
+
+.card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-card-title-color);
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight:normal;
+
+}
+.card-title2 {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-card-title-color);
+    font-size: 50px;
+    margin-top: 70px;
+    color: white;
+    font-weight:normal;
+
+}
+
+.card{
+    --bs-card-border-color: rgb(255 255 255 / 18);
+         
+}
+
+.btn-conocenos {
+    --bs-btn-padding-x: 3rem;
+    --bs-btn-padding-y: 0.6rem;
+    border-radius: 15px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0);
+    
+}
+
+.btn-ingresa {
+    --bs-btn-padding-x: 3rem;
+    --bs-btn-padding-y: 0.6rem;
+    border-radius: 15px;
+    box-shadow: 4px 6px 12px rgb(255, 255, 255);
+}
+
+
+img{
+    margin-left: 5px;
+} 
